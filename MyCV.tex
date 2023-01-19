@@ -1,0 +1,162 @@
+%-------------------------
+% Resume in TeX
+% Author : Amir Jamshidi Jam
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}l}
+  \textbf{{\LARGE Amir Jamshidi Jam }} & Email : \href{mailto:amir.jamshidijam@gmail.com}{amir.jamshidijam@gmail.com}\\
+  \textbf{\Large Python Developer/ Software Engineer} & Mobile : +98 933 666 0134 \\
+  Tehran, Iran \\
+\end{tabular*}
+
+
+\section{Summary}
+
+Software engineer experienced in developing web applications in Python (Django/ Flask); responsible for development and administration of the biggest clustered data warehouse of MTN-Irancell; good experience in organization business side as Fraud Investigations as well; Having understanding of web technologies, Unix-like OS's and Shell scripting.
+
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {MTN-Irancell}{Tehran, Iran}
+      {Forensics and Python developer}{ 2017 - Present (more than 4 years) }
+      \resumeItemListStart
+        \item {Development of GRC 
+portal with \textbf{Python/Flask}. (Governance, Risk and Compliance organizational portal reporting to South Africa MTN Group)}
+        \item {Development of Continuous Control Monitoring portal, gathering data from Irancell network up-stream nodes and detecting Fraud patterns by implementing related rules and best practice logics \textbf{(Python/Django/Linux/Postgres/JQuery/Bootstrap/AJAX)}.}
+        \item {Developing ETL to gather data from Network and IT up-streams and load in a centralized database for further data analysis.}
+        \item {Automation and data-analysis on gathered data, generating and providing reports for leadership and MTN Group.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Pars Tasmim - MTN-Irancell}{Tehran, Iran}
+      {Python Developer and support system}{ 2015 - 2017 (About 2 years) }
+      \resumeItemListStart
+        \item Development of Bolton reporting portal (gathering CDRs and providing Bolton reports for business) \textbf{(Flask/JQuery/Bootstrap)}.
+        \item Administration, development and managing 3 cluster with almost 70 Linux servers (RHEL) loading 3,500,000,000+ rows unrated/rated daily Call Detail Records and Event Data Records in NoSQL Big Data \textbf{(Sensage)} CDR archiving Solution.
+        \item Processing, storing and reporting of more than 30 types of audit logs and 10 types of security logs especially from Ericsson and Huawei \textbf{(Python/Linux/Sensage/Bash scripting)}.
+        \item Manage an on-line/ off-line \textbf{SIEM} feeding probe and
+reporting system in MTN-Irancell telecom Operator.
+      \resumeItemListEnd
+     \resumeSubheading
+      {Mohaymen}{Tehran, Iran}
+      {Test Engineer}{ 2014 - 2015 (1 year) }
+      \resumeItemListStart
+        \item Automation  and test development with \textbf{Appium}.
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{\textbf{Languages/ Markups/ Presentation }{: Python, SQL, HTML, CSS, YAML }}
+    \item \textbf{Frameworks/ Libs}{: Django, Flask, DRF, Selenium, BeautifulSoup, Bootstrap, AJAX, Requests, Celery }
+    \item \textbf{RDBMS}{: Postgress, MySQL, SQLite }
+    \item \textbf{NoSQLs}{: MongoDB, Redis, Cassandra, Sensage }
+    \item \textbf{VC}{: Git }
+    \item \textbf{OS}{: Linux, All Unix-like OS's }
+    \item \textbf{Standards/ Models}{: Git Flow, PEP20, PEP8, Design patterns, RESTful API, ORM }
+    \item \textbf{Other}{: Nginx, Memcached }
+    \item \textbf{Soft skills}{: Teamwork, Problem solving, self-learner, self-Motivating}
+  \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Shiraz}{Shiraz, Iran}
+      {B.Sc. in Computer Software Engineering}{2009 -- 2014}
+  \resumeSubHeadingListEnd
+\section{Achievement}
+  \resumeSubHeadingListStart
+    \item{\textbf{Best consistent Performance during 2021 among 21 MTN Group countries.}}
+    \item{\textbf{Supporting 7*24 of Irancell data-warehouse on various incidents under pressure.}}
+    \item{\textbf{Designing, Research and development of Continuous control monitoring, presenting in South Africa as a solution for fraud detection aligned with digitization strategy.}}
+    \resumeSubHeadingListEnd
+\end{document}
