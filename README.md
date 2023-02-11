@@ -91,15 +91,3 @@ understanding of web technologies, Unix-like OS's and Shell scripting.
       **University of Shiraz**                       Shiraz, Iran
       *B.Sc. in Computer Software Engineering*     *2009 -- 2014*
       ------------------------------------------ ----------------
-
-# Achievement
-
--   **Best consistent Performance during 2021 among 21 MTN Group
-    countries.**
-
--   **Supporting 7\*24 of Irancell data-warehouse on various incidents
-    under pressure.**
-
--   **Designing, Research and development of Continuous control
-    monitoring, presenting in South Africa as a solution for fraud
-    detection aligned with digitization strategy.**
